@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main>
+    <div class="block introduction">
+        <div class="column left">
+            <img src="{{ "images/portrait.jpg" | relURL }}" class="portrait" alt="Portrait of Arjan Scherpenisse">
+        </div>
+        <div class="column right">
+            <h1>{{ .Params.greeting }}</h1>
+            <h2>{{ .Params.subtitle }}</h2>
+            {{ .Content }}
+        </div>
+    </div>
+</main>
+{{ end }}

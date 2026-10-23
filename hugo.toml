@@ -1,0 +1,4 @@
+baseURL = "https://magicdust.eu/"
+locale = "en-US"
+title = "Magic Dust BV"
+disableKinds = ["taxonomy", "term", "section", "sitemap", "RSS", "404"]
